@@ -1,0 +1,184 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* index */
+
+
+.navbarbg{
+    background:#434343; 
+    padding: 10px;
+    
+    
+}
+.menu{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+nav ul li{
+    display: inline-block;
+    
+}
+
+.navbar a{
+    color:white;
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.login{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+
+.form label{
+    color: #434343;
+    align-items: center;
+    display: block;
+    margin: 0.3em;
+    font-size: 1.25em;
+}
+
+.form input{
+    display: block;
+    background: #dddbdb;
+    border-radius: 0.7em;
+    padding: 0.4em;
+    border-color: none;
+    border-style: none;
+    width: 15em;
+}
+
+.btn-entrar{
+    border-style: none;
+    padding: 0.3em;
+    width: 12.5em;
+    border-radius: 0.7em;
+    font-size: 1em;
+    margin-top: 1em;
+    background: #434343;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+/* cadastre-se */
+
+.caixaform{
+    display: flex;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.caixaform div{
+    margin: 0 auto;
+    
+}
+.cform label{
+    color: #434343;
+    align-items: center;
+    display: inline-block;
+    margin: 0.3em;
+    font-size: 1.25em;
+}
+
+.cform input{
+    align-items: center;
+    text-align: center;
+    background: #dddbdb;
+    border-radius: 0.7em;
+    padding: 0.4em;
+    border-color: none;
+    border-style: none;
+    width: 15em;
+    display: inline-block;
+    color: #828282;
+}
+
+
+.cform select{
+    align-items: center;
+    text-align: center;
+    background: #dddbdb;
+    border-radius: 0.7em;
+    padding: 0.4em;
+    border-color: none;
+    border-style: none;
+    width: 15em;
+    display: inline-block;
+    color: #828282;
+    
+    
+}
+
+.btn-entrar{
+    border-style: none;
+    padding: 0.3em;
+    width: 12.5em;
+    border-radius: 0.7em;
+    font-size: 1em;
+    margin-top: 1em;
+    background: #434343;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.btn-cancelar{
+    border-style: none;
+    padding: 0.3em;
+    width: 12.5em;
+    border-radius: 0.7em;
+    font-size: 1em;
+    margin-top: 1em;
+    background: #b7b7b7;
+    color: #434343;
+    cursor: pointer;
+}
+
+.input1{
+    width: 10px;
+}
+
+@media (max-width: 500px){
+    .navbar ul {
+        display: none;
+    }
+}
